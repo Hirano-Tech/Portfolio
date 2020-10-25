@@ -1,0 +1,66 @@
+body {
+  width: 100vw;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 16px;
+}
+
+body #Eye_Catch {
+  background: url(../img/Eye_Catch.png) no-repeat center center;
+  background-size: cover;
+  height: 720px;
+  position: relative;
+}
+
+body #Eye_Catch .Title {
+  background-color: rgba(139, 171, 32, 0.3);
+  width: 360px;
+  height: 520px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4.0rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(139, 171, 32, 0.5);
+  position: absolute;
+  top: 140px;
+  left: 100px;
+}
+
+body #Eye_Catch .Title .fas {
+  margin-right: 4px;
+}
+
+body #Eye_Catch .Title--Name {
+  line-height: 1.0;
+  margin: 32px 16px 0 16px;
+}
+
+body #Eye_Catch .Title--Name span {
+  text-align: right;
+  display: block;
+}
+
+body #Eye_Catch .Title--Portfolio {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 24px;
+}
+
+body #Eye_Catch .Title--Text {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 1.0rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  position: absolute;
+  right: 16px;
+  bottom: 40px;
+}
+
+body #Eye_Catch .Title--Text--Small {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+body #Gradation {
+  background: linear-gradient(#CEF748 0%, #fff 110%);
+  height: 240px;
+}
+/*# sourceMappingURL=style.css.map */
