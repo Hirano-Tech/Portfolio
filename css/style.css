@@ -60,6 +60,9 @@ body .Eye-Catch__Title--Text--Small {
 }
 
 body .Eye-Catch__Photo {
+  width: 500px;
+  height: 367px;
+  opacity: 0.9;
   position: absolute;
   top: 82px;
   left: 647px;
