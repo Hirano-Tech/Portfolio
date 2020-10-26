@@ -4,14 +4,14 @@ body {
   font-size: 16px;
 }
 
-body #Eye_Catch {
-  background: url(../img/Eye_Catch.png) no-repeat center center;
+body .Eye-Catch {
+  background: url(../img/Portfolio_Eye-Catch.png) no-repeat center center;
   background-size: cover;
   height: 720px;
   position: relative;
 }
 
-body #Eye_Catch .Title {
+body .Eye-Catch__Title {
   background-color: rgba(139, 171, 32, 0.3);
   width: 360px;
   height: 520px;
@@ -24,27 +24,27 @@ body #Eye_Catch .Title {
   left: 100px;
 }
 
-body #Eye_Catch .Title .fas {
+body .Eye-Catch__Title .fas {
   margin-right: 4px;
 }
 
-body #Eye_Catch .Title--Name {
+body .Eye-Catch__Title--Name {
   line-height: 1.0;
   margin: 32px 16px 0 16px;
 }
 
-body #Eye_Catch .Title--Name span {
+body .Eye-Catch__Title--Name span {
   text-align: right;
   display: block;
 }
 
-body #Eye_Catch .Title--Portfolio {
+body .Eye-Catch__Title--Portfolio {
   font-size: 3.5rem;
   text-align: center;
   margin-top: 24px;
 }
 
-body #Eye_Catch .Title--Text {
+body .Eye-Catch__Title--Text {
   font-family: 'Sawarabi Mincho', sans-serif;
   font-size: 1.0rem;
   font-weight: bold;
@@ -54,12 +54,18 @@ body #Eye_Catch .Title--Text {
   bottom: 40px;
 }
 
-body #Eye_Catch .Title--Text--Small {
+body .Eye-Catch__Title--Text--Small {
   font-size: 0.8rem;
   font-weight: normal;
 }
 
-body #Gradation {
+body .Eye-Catch__Photo {
+  position: absolute;
+  top: 82px;
+  left: 647px;
+}
+
+body .Gradation {
   background: linear-gradient(#CEF748 0%, #fff 110%);
   height: 240px;
 }
