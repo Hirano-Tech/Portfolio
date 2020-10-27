@@ -91,7 +91,8 @@ body .Profile {
 }
 
 body .Profile .Career {
-  margin-bottom: 48px;
+  width: 270px;
+  margin: 0 40px 48px 0;
 }
 
 body .Profile .Career .Indent_1 {
@@ -298,5 +299,109 @@ body .Profile .Skill-Set .Infra-Position__Skill:nth-child(1) {
 
 body .Profile .Skill-Set .Infra-Position__Skill--Text .Small {
   font-size: 1.1rem;
+}
+
+body .Philosophy {
+  width: 960px;
+  margin: 80px auto;
+}
+
+body .Philosophy .Font_Big {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body .Philosophy .Underline {
+  text-decoration: underline;
+}
+
+body .Philosophy h2 {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+  position: relative;
+}
+
+body .Philosophy h2 .fa-star {
+  font-size: 1.2rem;
+}
+
+body .Philosophy h2 .Background_Gradation {
+  background: linear-gradient(#fff 20%, #4A5E09 90%);
+  width: 960px;
+  height: 16px;
+  opacity: 0.5;
+  z-index: -10;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+
+body .Philosophy__Vision {
+  text-align: right;
+}
+
+body .Philosophy__Vision .Center {
+  text-align: center;
+  margin: -33px 0 -51px 0;
+  display: block;
+}
+
+body .Philosophy__Vision .Center .Number {
+  font-family: 'Gravitas One', cursive;
+  font-size: 5.0rem;
+  font-weight: bold;
+}
+
+body .Philosophy__Vision .Center .Commentary {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+body .Philosophy__Vision .Center .Colon {
+  font-size: 6.0rem;
+  font-weight: bold;
+}
+
+body .Philosophy__Vision .Full_Stack {
+  color: #7E20AB;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+body .Philosophy .Position {
+  position: relative;
+}
+
+body .Philosophy .Flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+body .Philosophy .fa-reply {
+  color: #40005E;
+  font-size: 7.0rem;
+  position: absolute;
+  top: 230px;
+  left: 320px;
+}
+
+body .Philosophy__Career_1 {
+  background-color: #fafafa;
+  box-shadow: 3px 3px #eeeeee;
+  width: 280px;
+  height: 220px;
+  font-size: 0.9rem;
+  padding: 8px;
+  margin: -1px 96px 0 75px;
+}
+
+body .Philosophy__Career_3 {
+  background-color: #fafafa;
+  box-shadow: 3px 3px #eeeeee;
+  width: 415px;
+  height: 340px;
+  font-size: 0.9rem;
+  padding: 8px;
 }
 /*# sourceMappingURL=style.css.map */
