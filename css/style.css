@@ -4,69 +4,78 @@ body {
   font-size: 16px;
 }
 
+body .far {
+  margin-right: 4px;
+}
+
+body .fas {
+  margin-right: 4px;
+}
+
+body h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1.5rem;
+}
+
+body .Small {
+  font-size: 0.8rem;
+}
+
 body .Eye-Catch {
   background: url(../img/Portfolio_Eye-Catch.png) no-repeat center center;
   background-size: cover;
   height: 720px;
   position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 body .Eye-Catch__Title {
   background-color: rgba(139, 171, 32, 0.3);
   width: 360px;
   height: 520px;
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 2.0rem;
+  margin-top: 120px;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(139, 171, 32, 0.5);
-  position: absolute;
-  top: 140px;
-  left: 100px;
+  position: relative;
 }
 
-body .Eye-Catch__Title .fas {
-  margin-right: 4px;
-}
-
-body .Eye-Catch__Title__Name {
-  line-height: 1.0;
-  margin: 32px 16px 0 16px;
-}
-
-body .Eye-Catch__Title__Name--Given-Name {
+body .Eye-Catch__Title--Given-Name {
   text-align: right;
-  display: block;
-}
-
-body .Eye-Catch__Title__Name--Portfolio {
-  font-size: 3.5rem;
-  text-align: center;
-  margin-top: -25px;
+  margin-bottom: -40px;
   display: block;
 }
 
 body .Eye-Catch__Title--Text {
-  font-family: 'Sawarabi Mincho', sans-serif;
-  font-size: 1.0rem;
-  font-weight: bold;
-  line-height: 1.5em;
-  position: absolute;
-  right: 16px;
-  bottom: 40px;
+  font-size: 3.5rem;
+  text-align: center;
+  display: block;
 }
 
-body .Eye-Catch__Title--Text--Small {
+body .Eye-Catch__Title--Small {
   font-size: 0.8rem;
   font-weight: normal;
 }
 
-body .Eye-Catch__Photo {
+body .Eye-Catch__Title h1 {
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 1.2;
+  font-size: 4.0rem;
+  padding: 32px 16px 0 16px;
+}
+
+body .Eye-Catch__Title p {
+  font-weight: bold;
+  position: absolute;
+  top: 420px;
+  left: 90px;
+}
+
+body .Eye-Catch__Image {
   width: 500px;
   height: 367px;
+  line-height: 720px;
   opacity: 0.9;
-  position: absolute;
-  top: 82px;
-  left: 647px;
 }
 
 body .Gradation {
@@ -74,7 +83,220 @@ body .Gradation {
   height: 240px;
 }
 
-body .Social-Networking h2 {
-  font-family: 'Fredericka the Great', cursive;
+body .Profile {
+  width: 960px;
+  margin: -64px auto 0;
+  display: flex;
+  flex-direction: row;
+}
+
+body .Profile .Career {
+  margin-bottom: 48px;
+}
+
+body .Profile .Career .Indent_1 {
+  margin: 0 0 -24px 12px;
+  display: block;
+}
+
+body .Profile .Social-Networking {
+  width: 270px;
+  margin-right: 40px;
+}
+
+body .Profile .Social-Networking a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+body .Profile .Social-Networking__Twitter {
+  width: 240px;
+  height: 56px;
+  border-radius: 30px;
+  padding-left: 16px;
+  background-color: rgba(29, 161, 242, 0.3);
+  box-shadow: 0 2px rgba(29, 161, 242, 0.6);
+  margin: 0 0 8px 32px;
+}
+
+body .Profile .Social-Networking__Twitter--Height {
+  position: relative;
+  top: -6px;
+}
+
+body .Profile .Social-Networking__Twitter--Small {
+  font-size: 0.8rem;
+}
+
+body .Profile .Social-Networking__Twitter a i {
+  color: #1da1f2;
+  line-height: 56px;
+  margin-right: 4px;
+}
+
+body .Profile .Social-Networking__Twitter:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+body .Profile .Social-Networking__GitHub {
+  width: 240px;
+  height: 56px;
+  border-radius: 30px;
+  padding-left: 16px;
+  background-color: rgba(22, 20, 21, 0.3);
+  box-shadow: 0 2px rgba(22, 20, 21, 0.6);
+  margin: 0 0 8px 32px;
+}
+
+body .Profile .Social-Networking__GitHub--Height {
+  position: relative;
+  top: -6px;
+}
+
+body .Profile .Social-Networking__GitHub--Small {
+  font-size: 0.8rem;
+}
+
+body .Profile .Social-Networking__GitHub a i {
+  color: #161415;
+  line-height: 56px;
+  margin-right: 4px;
+}
+
+body .Profile .Social-Networking__GitHub:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+body .Profile .Social-Networking__Wantedly {
+  width: 240px;
+  height: 56px;
+  border-radius: 30px;
+  padding-left: 16px;
+  background-color: rgba(33, 189, 219, 0.3);
+  box-shadow: 0 2px rgba(33, 189, 219, 0.6);
+  line-height: 56px;
+  margin-left: 32px;
+}
+
+body .Profile .Social-Networking__Wantedly a img {
+  width: 48px;
+  height: 48px;
+  margin: -4px 0 0 -8px;
+}
+
+body .Profile .Social-Networking__Wantedly:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+body .Profile .Skill-Set {
+  width: 650px;
+}
+
+body .Profile .Skill-Set h3 {
+  font-size: 1.2rem;
+  margin-left: 36px;
+}
+
+body .Profile .Skill-Set .Front-Position {
+  padding-left: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+body .Profile .Skill-Set .Front-Position__Skill {
+  width: 140px;
+  font-size: 1.5rem;
+  margin-right: 16px;
+}
+
+body .Profile .Skill-Set .Front-Position__Skill--Logo {
+  width: 80px;
+  font-size: 4.0rem;
+  text-align: center;
+  margin: 0 auto 8px;
+  display: block;
+}
+
+body .Profile .Skill-Set .Front-Position__Skill--Text {
+  font-family: 'Wendy One', sans-serif;
+  text-align: center;
+}
+
+body .Profile .Skill-Set .Front-Position__Skill--Text .Small {
+  font-size: 1.1rem;
+}
+
+body .Profile .Skill-Set .Back-Position {
+  padding-left: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+body .Profile .Skill-Set .Back-Position__Skill {
+  width: 140px;
+  font-size: 1.5rem;
+  margin-right: 16px;
+}
+
+body .Profile .Skill-Set .Back-Position__Skill--Logo {
+  width: 80px;
+  font-size: 4.0rem;
+  text-align: center;
+  margin: 0 auto 8px;
+  display: block;
+}
+
+body .Profile .Skill-Set .Back-Position__Skill--Text {
+  font-family: 'Wendy One', sans-serif;
+  text-align: center;
+}
+
+body .Profile .Skill-Set .Back-Position__Skill:nth-child(2) {
+  font-size: 1.3rem;
+  line-height: 1.9;
+}
+
+body .Profile .Skill-Set .Infra-Position {
+  padding-left: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+body .Profile .Skill-Set .Infra-Position__Skill {
+  width: 140px;
+  font-size: 1.5rem;
+  margin-right: 16px;
+}
+
+body .Profile .Skill-Set .Infra-Position__Skill--Logo {
+  width: 80px;
+  font-size: 4.0rem;
+  text-align: center;
+  margin: 0 auto 8px;
+  display: block;
+}
+
+body .Profile .Skill-Set .Infra-Position__Skill--Text {
+  font-family: 'Wendy One', sans-serif;
+  text-align: center;
+}
+
+body .Profile .Skill-Set .Infra-Position__Skill:nth-child(1) {
+  font-size: 1.3rem;
+  line-height: 0.9;
+}
+
+body .Profile .Skill-Set .Infra-Position__Skill--Text .Small {
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=style.css.map */
